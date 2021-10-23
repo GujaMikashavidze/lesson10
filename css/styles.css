@@ -1,0 +1,228 @@
+.BG{
+    background-image: url("../img/mohamed.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 324px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 1089px;
+    width: 100%;
+    height: 210px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav-menu{
+    position: fixed;
+    z-index: 1;
+    max-width: 1089px;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-ul{
+    display: flex;
+}
+.nav-li{
+    margin-right: 50px;
+}
+.nav-a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+ .contact-block{
+    width: 178px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 96px;
+}
+ .contact-child{
+    display: flex;
+    margin-top: 15px;
+}
+.home{
+    color: white;
+}
+.line{
+    width: 1px;
+    height: 19px;
+    background-color: white;
+    margin-left: 14.5px;
+    margin-right: 14.5px;
+}
+.contact{
+    color: white;
+}
+.title{
+    color: white;
+    font-size: 42px;
+    width: 177px;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+}
+.map-block{
+    margin-top: 50px;
+    max-width: 1088px;
+    width: 100%;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+}
+.section-div{
+    max-width: 1088px;
+    width: 100%;
+    height: auto;
+    background-color: brown;
+    margin-top: 56px;
+}
+.contact-div{
+    max-width: 1088px;
+    width: 100%;
+    height: 482px;
+    background-color: cornflowerblue;
+    margin-top: 50px;
+}
+.text-block{
+    max-width: 378px;
+    width: 100%;
+}
+.title2{
+    font-size: 42px;
+    max-width: 378px;
+    width: 100%;
+    line-height: 50px;
+}
+.text{
+    margin-left: 250px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.image{
+    max-width: 352px;
+    width: 100%;
+}
+.footer-BG{
+    width: 100%;
+    background-image: url("../img/footer.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 395px;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 520px){
+    /* .footer-BG{
+        height: auto;
+    } */
+    /* .footer-containter{
+        height: auto;
+    } */
+}
+.footer-containter{
+    max-width: 1088px;
+    width: 100%;
+    height: 265px;
+    margin-top: 90px;
+}
+.block1{
+    width: 260px;
+    height: 191px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block2{
+    width: 103px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block3{
+    width: 78px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top-block{
+    max-width: 1088px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
+.block4{
+    width: 198px;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+span{
+    margin-left: 14px;
+    vertical-align: middle;
+    color: white;
+}
+.img{
+    vertical-align: middle;
+}
+.span{
+    color: #5863F8;
+}
+.bottom-block{
+    max-width: 1088px;
+    width: 100%;
+    height: 20px;
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title5{
+    color: white;
+}
+.title6{
+    color: white;
+}
+.text1{
+    color: white;
+}
+.footer-a{
+    color: #5863F8;
+}
+.text2{
+    color: white;
+}
+.portfolio{
+    color: #5863F8;
+}
+body{
+    background-color: tomato;
+}
+.burger{
+    display: none;
+}
+.span1{
+    color: #5863F8;
+}
+.drop-down{
+    color: white;
+}
